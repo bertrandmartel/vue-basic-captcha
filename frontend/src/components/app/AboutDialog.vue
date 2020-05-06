@@ -1,5 +1,5 @@
 <template>
-  <v-dialog v-model="aboutDialog" max-width="600">
+  <v-dialog v-model="aboutDialog" max-width="600" :fullscreen="$vuetify.breakpoint.xsOnly">
     <v-card>
       <v-card-title class="headline">About</v-card-title>
       <v-card-text class="aboutCard">
@@ -57,7 +57,7 @@
           </v-col>
         </v-row>
       </v-card-text>
-      <v-card-actions>
+      <v-card-actions class="cardActionAbout">
         <v-spacer></v-spacer>
         <v-btn color="green darken-1" text @click="aboutDialog = false">Close</v-btn>
       </v-card-actions>
@@ -119,6 +119,9 @@ export default {
     flex: 80%;
     text-align: center;
     margin-left: 20px;
+  }
+  .cardActionAbout {
+    margin-top:20px;
   }
 }
 

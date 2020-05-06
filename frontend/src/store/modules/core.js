@@ -12,7 +12,9 @@ const state = {
   serverPathEdit: "",
   snackbar: false,
   snackbarColor: 'error',
-  snackbarMessage: ''
+  snackbarMessage: '',
+  mobileDrawer: true,
+  mobileDrawerMini: true,
 }
 
 const mutations = {
@@ -47,7 +49,13 @@ const mutations = {
   },
   setAuthenticated(state, value){
     state.authenticated = value
-  }
+  },
+  updateMobileDrawer(state, value){
+    state.mobileDrawer = value
+  },
+  updateMobileDrawerMini(state, value){
+    state.mobileDrawerMini = value
+  },
 }
 
 const actions = {

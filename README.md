@@ -4,7 +4,7 @@
 
 Template project of a Vue.js application with basic authentication & captcha integration in Go
 
-This template is great for making a quick Vue.js project protected by username/password with captcha with vuetify and vuex out of the box. Redis is used to store the session & the username/password (passowrd is hashed & salted).
+This template is great for making a quick responsive Vue.js project protected by username/password with captcha with vuetify and vuex out of the box. Redis is used to store the session & the username/password (password is hashed & salted).
 
 ![vuejs](https://user-images.githubusercontent.com/5183022/81025085-bd82b880-8e75-11ea-9d45-814ece3f9697.png)
 
@@ -131,7 +131,7 @@ go run ./delete
 |  Name  | Sample values  | Description |
 |--------|--------------|---------------|
 | REDIS_HOST |  redis / localhost |  Redis hostname |
-| HOSTNAME   |  your.host.com     | hostname to be check in captcha response |
+| HOSTNAME   |  your.host.com     | hostname to be checked in captcha response |
 | CAPTCHA_SECRET_KEY |  [captchaKey]  | captcha secret key | 
 
 ## Open Source components
