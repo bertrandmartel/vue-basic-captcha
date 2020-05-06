@@ -16,6 +16,7 @@ This template is great for making a quick responsive Vue.js project protected by
 
 * start ngrok on port 6004
 * update host & captcha secret key in config.json
+* run `./main` or `./main.exe`
 * go to `http://your.host.ngrok.io:6004`
 
 Using binaries, you must have redis installed 
