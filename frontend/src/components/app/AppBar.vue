@@ -87,14 +87,4 @@ export default {
     margin-right:15px !important;
   }
 }
-/*
-@media screen and (max-height: 500px) {
-  .v-toolbar.v-toolbar--collapsed  {
-    max-width: 125px !important;
-  }
-  .spacer {
-    display: none;
-  }
-}
-*/
 </style>

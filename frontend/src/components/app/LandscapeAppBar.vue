@@ -71,7 +71,6 @@ export default {
         return this.$store.state.core.mobileDrawer
       },
       set(value) {
-        //this.$store.commit('core/updateMobileDrawer', value)
       }
     },
     mini: {
@@ -79,7 +78,6 @@ export default {
         return this.$store.state.core.mobileDrawerMini
       },
       set(value) {
-        //this.$store.commit('core/updateMobileDrawerMini', value)
       }
     },
     aboutDialog: {
